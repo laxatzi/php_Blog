@@ -157,14 +157,21 @@
   <form>
     <img class="mb-4 rounded-circle logo-img mx-auto d-block" src="assets/images/logo.png" alt="" width="100" height="100">
     <h1 class="h3 mb-3 fw-normal">Please join</h1>
-
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input name="username" type="text" class="form-control" id="floatingInput" placeholder="Username">
+      <label for="floatingInput">User name</label>
+    </div>
+    <div class="form-floating">
+      <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
+    </div>
+    <div class="form-floating">
+      <input name="retyped-password" type="password" class="form-control" id="floatingPassword" placeholder="Retype Password">
+      <label for="floatingPassword">Retype Password</label>
     </div>
 
     <div class="form-check text-start my-3">
