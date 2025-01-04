@@ -156,28 +156,29 @@
 <main class="form-signin w-100 m-auto">
   <form>
     <img class="mb-4 rounded-circle logo-img mx-auto d-block" src="assets/images/logo.png" alt="" width="100" height="100">
-    <h1 class="h3 mb-3 fw-normal">Please join</h1>
+    <h1 class="h3 mb-3 fw-normal">Please Join Us</h1>
     <div class="form-floating">
       <input name="username" type="text" class="form-control" id="floatingInput" placeholder="Username">
       <label for="floatingInput">User name</label>
     </div>
-    <div class="form-floating">
+    <div class="form-floating my-1">
       <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
-    <div class="form-floating">
+    <div class="form-floating my-1">
       <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
-    <div class="form-floating">
+    <div class="form-floating my-1">
       <input name="retyped-password" type="password" class="form-control" id="floatingPassword" placeholder="Retype Password">
       <label for="floatingPassword">Retype Password</label>
     </div>
+        <small class="my-2">Already have an account? <a href="login.php">Login here</a></small>
 
-    <div class="form-check text-start my-3">
-      <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+     <div class="form-check text-start my-2">
+      <input name="accepting-terms" class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
       <label class="form-check-label" for="flexCheckDefault">
-        Remember me
+        Accept Terms
       </label>
     </div>
     <button class="btn btn-primary w-100 py-2" type="submit">Register</button>
