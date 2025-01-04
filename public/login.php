@@ -7,9 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
-    <title>Login Page</title>
+    <title>Login | My PHP Blog</title>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -169,7 +167,7 @@
       </label>
     </div>
     <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
-    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
+    <p class="mt-5 mb-3 text-body-secondary">&copy;2025</p>
   </form>
 </main>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
