@@ -87,6 +87,10 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
+      .logo-img {
+        object-fit: contain;
+      }
     </style>
 
 
@@ -148,7 +152,7 @@
 
 <main class="form-signin w-100 m-auto">
   <form>
-    <img class="mb-4" src="assets/images/logo.png" alt="" width="72" height="57">
+    <img class="mb-4 logo-img mx-auto d-block" src="assets/images/logo.png" alt="" width="144" height="114">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">
