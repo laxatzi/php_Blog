@@ -90,6 +90,9 @@
 
       .logo-img {
         object-fit: contain;
+        border: 2px solid #461395;
+        background-color: #FBF3F3;
+        box-shadow: 3px 3px 2px 2px rgba(0, 0, 255, .1);
       }
     </style>
 
@@ -152,7 +155,7 @@
 
 <main class="form-signin w-100 m-auto">
   <form>
-    <img class="mb-4 logo-img mx-auto d-block" src="assets/images/logo.png" alt="" width="144" height="114">
+    <img class="mb-4 rounded-circle logo-img mx-auto d-block" src="assets/images/logo.png" alt="" width="100" height="100">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">
