@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <title>Login | My PHP Blog</title>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="assets/css/custom.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -179,7 +179,7 @@
         Remember me
       </label>
     </div>
-    <button class="btn form-button w-100 py-2" type="submit">Sign in</button>
+    <button class="btn btn-custom w-100 py-2" type="submit">Sign in</button>
     <p class="mt-5 mb-3 text-body-secondary">&copy;<?php echo date('Y');?></p>
   </form>
 </main>
