@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <title>Register | My PHP Blog</title>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -181,7 +182,7 @@
         Accept Terms
       </label>
     </div>
-    <button class="btn btn-primary w-100 py-2" type="submit">Register</button>
+    <button class="btn btn-custom w-100 py-2" type="submit">Register</button>
     <p class="mt-5 mb-3 text-body-secondary">&copy;<?php echo date('Y');?></p>
   </form>
 </main>

@@ -94,6 +94,11 @@
         background-color: #FBF3F3;
         box-shadow: 3px 3px 2px 2px rgba(0, 0, 255, .1);
       }
+
+      .btn-primary {
+        --bs-indigo: #6610f2;
+
+      }
     </style>
 
 
@@ -174,7 +179,7 @@
         Remember me
       </label>
     </div>
-    <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+    <button class="btn form-button w-100 py-2" type="submit">Sign in</button>
     <p class="mt-5 mb-3 text-body-secondary">&copy;<?php echo date('Y');?></p>
   </form>
 </main>
