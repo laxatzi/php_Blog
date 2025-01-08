@@ -22,3 +22,12 @@
 .offcanvas-body .nav-item a.nav-link {
   color: var(--bs-indigo);
 }
+
+.logo-img {
+  object-fit: contain;
+  border: 2px solid #461395;
+  background-color: #fbf3f3;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 255, 0.1);
+  width: 100px;
+  height: 100px;
+}
