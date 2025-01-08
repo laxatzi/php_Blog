@@ -13,3 +13,8 @@
   background-color: var(--bs-indigo);
   border-color: var(--bs-indigo);
 }
+
+.dash-icons {
+  max-width: 20px;
+  max-height: auto;
+}
