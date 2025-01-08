@@ -7,6 +7,7 @@
     <title>Home | My PHP Blog</title>
 
    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="assets/css/custom.css">
 
     <style>
       .bd-placeholder-img {
@@ -170,8 +171,8 @@
 <header class="p-3 mb-3 border-bottom">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none me-2">
+          <img class="mb-1 logo-img mx-auto d-block" src="assets/images/logo.png" alt="blog's logotype" width="40" height="40">
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
