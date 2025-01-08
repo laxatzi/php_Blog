@@ -9,7 +9,7 @@
     <title>Admin | My PHP Blog</title>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/vicons.css">
+    <link href="assets/css/custom.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -128,8 +128,7 @@
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
-                <span class="vicon-speedometer"></span>
-                Dashboard
+                <img class="dash-icons" src="assets/images/icons/icons8-speedometer-50.png">Dashboard
               </a>
             </li>
           </ul>
@@ -141,11 +140,10 @@
             </a>
           </h6>
           <ul class="nav flex-column mb-auto">
-            <li class="nav-item" style="border: 1px solid red;">
-              <img src="assets/images/icons/home.png">
-
-                Front End
-
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
+                 <img class="dash-icons" src="assets/images/icons/icons8-home-50.png">Front End
+              </a>
             </li>
           </ul>
 
@@ -154,12 +152,12 @@
           <ul class="nav flex-column mb-auto">
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
-                Settings
+                <img class="dash-icons" src="assets/images/icons/icons8-settings-50.png">Settings
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
-                Sign out
+                <img class="dash-icons" src="assets/images/icons/icons8-log-out-50.png">Sign out
               </a>
             </li>
           </ul>
