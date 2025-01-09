@@ -10,6 +10,21 @@
    <link href="assets/css/custom.css">
 
     <style>
+     body {
+      font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -25,7 +40,7 @@
       }
 
       .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
+        --bd-violet-bg:rgb(136, 81, 246);
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
         --bs-btn-font-weight: 600;
@@ -33,7 +48,7 @@
         --bs-btn-bg: var(--bd-violet-bg);
         --bs-btn-border-color: var(--bd-violet-bg);
         --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-bg: #712cf9;
         --bs-btn-hover-border-color: #6528e0;
         --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
         --bs-btn-active-color: var(--bs-btn-hover-color);
@@ -170,25 +185,28 @@
   </div>
   </div>
   </main>
-<div class="container">
-  <div class="py-5">
-    <div class="row d-flex justify-content-center align-items-center" style="border: 1px solid green;">
-      <div class="col-5 offset-md-1 mb-3 d-flex justify-content-center align-items-center" style="border: 1px solid red;">
+<section class="container-fluid" style="background-color: var(--bs-indigo);">
+
+    <div class="py-5 row d-flex justify-content-center align-items-center">
+      <div class="my-5 col-8 col-md-6 col-lg-5 col-xl-4 col-xxl-3 mb-3 d-flex justify-content-center align-items-center flex-column" style="color: white;">
         <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
+          <h2 class="h1">Monthly digest of what's new and exciting from us</h2>
+          <p>Just join!</p>
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+            <button class="btn btn-bd-primary" type="button">Subscribe</button>
           </div>
+          <small class="my-1">Once a month, no spam!</small>
         </form>
+
+
       </div>
-    </div>
+
   </div>
-</div>
+</section>
 <div class="container">
-  <footer class="py-5">
+  <footer class="py-2">
     <div class="row" >
       <div class="col-6 col-md-4 mb-3">
         <h5>Section</h5>
