@@ -61,6 +61,10 @@
         fill: currentColor;
       }
 
+      .divider {
+             border-bottom: 1px solid black;
+      }
+
 
     </style>
 
@@ -182,10 +186,12 @@
   </header>
   <main>
     <div class="row g- d-flex justify-content-center align-items-center">
-      <div class="col-md-8 mb-5">
-        <h1>This is content</h1>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime facere quae non consequuntur saepe iusto doloremque aut deleniti delectus perspiciatis aliquid quis ipsum perferendis assumenda voluptatum, ea iste quas totam.
-  </div>
+      <div class="col-md-8 mb-5 ms-5 ms-md-2">
+        <section class="intro">
+          <h1 class="col-sm-10 col-md-8 ln-base">Welcome to my blog! I write about web technologies, JavaScript, PHP, HTML/CSS and MySql.</h1>
+          <div class="divider pt-5"></div>
+        </section>
+      </div>
   </div>
   </main>
 <section class="container-fluid" style="background-color: var(--bs-indigo);">
