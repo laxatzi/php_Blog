@@ -152,10 +152,13 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-          <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
-          <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
-          <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li>
+          <li><a href="#" class="nav-link px-2 link-secondary">All Articles</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">JavaScript</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">PHP</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">CSS</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">HTML</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">MySql</a></li>
+
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -179,7 +182,7 @@
   </header>
   <main>
     <div class="row g- d-flex justify-content-center align-items-center">
-      <div class="col-md-8" style="border: 1px solid red;">
+      <div class="col-md-8 mb-5">
         <h1>This is content</h1>
   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime facere quae non consequuntur saepe iusto doloremque aut deleniti delectus perspiciatis aliquid quis ipsum perferendis assumenda voluptatum, ea iste quas totam.
   </div>
@@ -206,38 +209,39 @@
   </div>
 </section>
 <div class="container">
-  <footer class="py-2">
+  <footer class="py-2 mt-5">
     <div class="row" >
       <div class="col-6 col-md-4 mb-3">
-        <h5>Section</h5>
+        <h5>Pages</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Subscribe</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy</a></li>
+
         </ul>
       </div>
 
       <div class="col-6 col-md-4 mb-3">
-        <h5>Section</h5>
+        <h5>Categories</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">All</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">JavaScript</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">PHP</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MySql</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">CSS</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">HTML</a></li>
         </ul>
       </div>
 
       <div class="col-6 col-md-4 mb-3">
-        <h5>Section</h5>
+        <h5>Contact</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">X (Twitter)</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">LinkedIn</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Email Us</a></li>
         </ul>
       </div>
 
