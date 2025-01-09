@@ -63,8 +63,6 @@
 
         .h-250 { height: 250px; }
 
-
-
         /* Pagination */
         .blog-pagination {
           margin-bottom: 4rem;
@@ -80,6 +78,37 @@
           margin-bottom: 1.25rem;
           color: #727272;
         }
+
+        .nav-link {
+          font-size: 14px;
+          font-weight: 600;
+          color: var(--bs-nav-link-color);
+          text-decoration: none;
+         }
+
+        .link-body-emphasis:hover {
+            color: var(--bs-indigo) !important;
+          }
+
+         .link-secondary {
+	         color: var(--bs-indigo) !important;
+
+        }
+
+        .about {
+          border: 1px solid var(--bs-indigo);
+          border-radius: 4px;
+        }
+
+        /* .about:hover,
+        .about:hover ul,
+        .about:focus {
+          background-color: var(--bs-indigo) !important;
+          color: whitesmoke !important;
+        } */
+
+
+
 
   @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -188,6 +217,10 @@
           <li><a href="#" class="nav-link px-2 link-body-emphasis">MySql</a></li>
 
         </ul>
+
+        <ul class="nav me-3 mb-2 justify-content-center mb-md-0">
+            <li class="about"><a class="nav-link link-body-emphasis" href="#">About</a></li>
+          </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
           <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
