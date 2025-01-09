@@ -100,15 +100,35 @@
           border-radius: 4px;
         }
 
-        /* .about:hover,
-        .about:hover ul,
-        .about:focus {
-          background-color: var(--bs-indigo) !important;
-          color: whitesmoke !important;
-        } */
+        .image-display {
+          place-content: center;
+          align-items: center;
+          flex: 0 0 auto;
+          flex-flow: row;
+          height: min-content;
+          overflow: hidden;
+          padding: 0px;
+          position: relative;
+          width: 100%;
+          z-index: 1;
+      }
 
+      /* .image-display {
+        border: 3px solid orange;
+      } */
 
+      /* figure {
+        border: 3px solid blue;
+      }
 
+      .image-display figure .image-wrapper {
+        border: 3px solid red;
+      } */
+
+      .image-display figure .image-wrapper img{
+        border-radius: 4px;
+        max-width: 550px;
+      }
 
   @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -244,7 +264,18 @@
   <main>
     <div class="container">
     <div class="row d-flex justify-content-center align-items-center mb-2 my-5" >
-        <h5>Some content goes here!</h5>
+        <div class="image-display d-flex g-2">
+          <figure class="d-flex me-2">
+            <div class="image-wrapper">
+              <img src="assets/images/group-people-working-about.png" alt="image depicting a group of people working on the office">
+            </div>
+          </figure>
+          <figure class="d-flex ms-2">
+            <div class="image-wrapper">
+              <img src="assets/images/team-of-programmers-working-about.png" alt="image depicting a team of programmers working">
+            </div>
+          </figure>
+        </div>
 
     </div>
 </div>
